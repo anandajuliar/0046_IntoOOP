@@ -2,7 +2,7 @@
 using namespace std;
 
 class Mahasiswa {
-public:
+public: // akses modifier
 	string nama;
 	int umur;
 	string jurusan;
@@ -47,6 +47,6 @@ int main() {
 	mk.input();
 	mk.output();
 
-	return 0;
+	return 0;
 }
 
